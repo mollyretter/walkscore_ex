@@ -1,0 +1,27 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://api.walkscore.com/score?format=json&wsapikey={FILTERED}&address=621%20West%20Manchester%20Blvd,%20Inglewood,%20CA%2090301%20USA&lat=33.961890&lon=-118.367380"
+    },
+    "response": {
+      "binary": false,
+      "body": "{\n\"status\": 1  \n, \"walkscore\": 87\n, \"description\": \"Very Walkable\"\n, \"updated\": \"2023-02-15 17:15:11.840515\" \n, \"logo_url\": \"https://cdn.walk.sc/images/api-logo.png\"\n, \"more_info_icon\": \"https://cdn.walk.sc/images/api-more-info.gif\"\n, \"more_info_link\": \"https://www.redfin.com/how-walk-score-works\"\n, \"ws_link\": \"https://www.walkscore.com/score/621-West-Manchester-Blvd-Inglewood-CA-90301-USA/lat=33.961890/lng=-118.367380/?utm_source=test.com&utm_medium=ws_api&utm_campaign=ws_api\"\n, \"help_link\": \"https://www.redfin.com/how-walk-score-works\"\n, \"snapped_lat\": 33.9615\n, \"snapped_lon\": -118.3680 \n\n\n\n\n\n}",
+      "headers": {
+        "Cache-Control": "no-cache",
+        "Expires": "Mon, 27 Mar 2023 23:19:20 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "X-Cloud-Trace-Context": "ed0c6441e13347d9581c2a2a178183cd",
+        "Date": "Sun, 26 Mar 2023 23:19:20 GMT",
+        "Server": "Google Frontend",
+        "Content-Length": "608"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
